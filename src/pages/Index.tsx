@@ -32,18 +32,6 @@ const Index = () => {
               The Private Golf Society for Capital.
             </p>
 
-            {/* Brand philosophy quote */}
-            <div className="animate-fade-in-delay-2 mt-16 max-w-lg">
-              <blockquote className="text-sm md:text-base text-muted-foreground font-sans leading-relaxed">
-                "In Private Equity, 'Carry' is the ultimate reward for performance. 
-                In golf, 'Carry' is the distance you cover in the air. Both require 
-                precision, power, and the right conditions.
-              </blockquote>
-              <p className="mt-4 text-accent font-serif text-lg italic">
-                We provide the conditions.
-              </p>
-            </div>
-
             {/* Password Gate */}
             <div className="mt-16 w-full">
               <PasswordGate onSuccess={() => setView("application")} />
@@ -54,12 +42,6 @@ const Index = () => {
         )}
       </div>
 
-      {/* Footer */}
-      <footer className="absolute bottom-6 left-0 right-0 text-center">
-        <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground/60 font-sans">
-          Est. MMXXIV
-        </p>
-      </footer>
     </main>
   );
 };
